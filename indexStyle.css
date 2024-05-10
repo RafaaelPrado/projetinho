@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30rem;
+    background-image: url(img/banner-predios.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.comeco {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragrafo__comeco {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.areas {
+    text-align: center;
+}
+.area {
+    display: inline-block;
+    width: 250px;
+    height: 260px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.linha {
+    width: 50%;
+    margin: 10px auto 10px;
+    border-top: 1px solid #000000;
+}
+
+.equipe__fundo {
+    background-color: #c0c0a8;
+    padding: 20px;
+}
+
+.membro {
+    background-color: white;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 70%;
+    margin: auto;
+    gap: 2px;
+    position: relative;
+    
+}
+
+.foto {
+    padding: 10px;
+}
+
+.descricao {
+    padding: 10px 20px 10px 10px; /* Alteração aqui */
+
+}
+
+.nome__advogado {
+    text-align: center;
+    top: 10px
+}
+
+.btn-entre-contato {
+    position: absolute;
+    bottom: 20px; /* Alteração para trazer um pouco para cima */
+    right: 20px; /* Alteração para trazer um pouco para a esquerda */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Aumento do border-radius */
+    padding: 8px 15px; /* Aumento do padding */
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adição de sombreamento */
+}
+
+footer {
+    width: 100%; /* Garante que o footer tenha a largura total */
+    position: center; /* Fixa o footer no fundo da página */
+    bottom: 0; /* Alinha o footer na parte inferior */
+    left: 0; /* Alinha o footer à esquerda */
+    background-color: #000; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto do footer */
+    text-align: center; /* Centraliza o texto dentro do footer */
+    padding: 20px 0; /* Espaçamento interno do footer */
+}
+
+.container {
+    width: 80%; /* Largura do container dentro do footer */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+footer p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+}
+
+footer a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
